@@ -1,0 +1,4 @@
+resource "aws_key_pair" "deploy" {
+  key_name   = "kp_devops"
+  public_key = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCtHtWEBpAqgruFPH2AenUfcK19CX9XPd13onr0jWn9YP3xgxE2ADzl9HOYoCwFrbvrx9Mj3EagVozTnMGEfaYv2fTSjivKhtyoSD7Vmqh2BdL+rZOVXC8P9Xphj1JN0XtwsCTKs2SYzrZIX31uWzMuiSX5VuNnuPjm5ChBnSMSxTteQ782wd3+3YRTxGIG8iuypQHtheHUW9YKq/KDrsQU716kMDih4p/r2oC7s1IM95l839Khfk6mPXsuEfQzG+roCc4/reuzE5zGlZ4AzRpoDQT2iqEwLLHlo/xKdQmG8NMWrtHs05o5snCr5bV298Ck60NlcoOe9gnsiVg+8x0d testing"
+}
